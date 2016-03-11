@@ -12,7 +12,7 @@ dependencies:
 test:
   pre:
     # start emulator for instrumentation tests
-    - emulator -avd circleci-android15 -no-audio -no-window:
+    - emulator -avd circleci-android21 -no-audio -no-window:
         background: true
   
     - circle-android wait-for-boot
