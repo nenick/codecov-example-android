@@ -16,6 +16,7 @@ test:
         background: true
   
     - circle-android wait-for-boot
+    - sleep 60
     - adb shell setprop dalvik.vm.dexopt-flags v=n,o=v
     
   override:
